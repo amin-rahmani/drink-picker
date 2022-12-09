@@ -21,7 +21,9 @@ document.querySelector('#search-by-name').addEventListener('submit', (event)=> {
 });
 
 function displayDrink(drink){
+    window.d = drink;
     drinkContainer.querySelector('h2').textContent = drink.strDrink;
     drinkContainer.querySelector('img').src = drink.strDrinkThumb;
-    drinkContainer.querySelector('p').textContent = drink.strInstructions
+    drinkContainer.querySelector('p').innerHTML = drink.strInstructions
 }
+// displayDrink()
