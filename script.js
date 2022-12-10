@@ -106,4 +106,3 @@ function displayDrink(drink) {
     drinkContainer.querySelector('tbody').innerHTML = html;
     drinkContainer.classList.remove('hidden');
 }
-// displayDrink()
