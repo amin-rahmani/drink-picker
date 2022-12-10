@@ -18,10 +18,37 @@ main{
     max-width: 33vw;
 }
 #drink{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     overflow: auto;
 }
+#drink img{
+    /* width: 50v; */
+    /* height:; */
+}
+
+#drink #info {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+/* #drink #info > * {
+    display: flex;
+} */
 
 #drink table{
     margin: auto;
+}
+
+#drink table td:first-of-type {
+    text-align: left;
+}
+
+#drink table td:last-of-type{
+    text-align: right;
+}
+
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 1rem;
 }
